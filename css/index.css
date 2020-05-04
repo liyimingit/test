@@ -1,0 +1,686 @@
+*{
+	margin: 0rem;
+	padding: 0rem;
+}
+.yinyue{
+    position: absolute;
+    top: 2.0625rem;
+    left: 18.75rem;
+    width: 2.7rem;
+    height: 2.7rem;
+	animation: yin 1s linear infinite alternate;
+	z-index: 999;
+}
+
+@keyframes yin{
+	from{
+		transform: rotate(45deg);
+	}
+	to{
+		transform: rotate(-45deg);
+	}
+}
+.warp{
+	position: absolute;
+	width: 23.4375rem;
+	height: 100%;
+	overflow: hidden;
+	background: url(../images/bg1.png) no-repeat;
+	background-size: 100%100%;
+}
+
+.index1,.index2,.index3,.index4,.index5{
+	position: absolute;
+	width: 23.4375rem;
+	height: 41.6875rem;
+	overflow: hidden;
+	
+}
+.index2,.index3,.index4,.index5{
+	display: none;
+}
+
+.nei1{
+	position: absolute;
+	width: 9.375rem;
+	height: 3.125rem;
+	left: 7.03125rem;
+	top: 16.675rem;
+}
+
+.nei1 img:nth-child(1){
+    width: 10.5rem;
+    height: 14.25rem;
+    position: absolute;
+    top: -6.75rem;
+    left: 0rem;
+}
+
+.nei2{
+	position: absolute;
+	width: 9.375rem;
+	height: 3.125rem;
+	left: 0rem;
+	top: 20.84375rem;
+	
+}
+
+.nei2 p:nth-child(1){
+	position: absolute;
+	font-size: 1.3rem;
+	font-weight: bold;
+	font-family: fantasy;
+	left: 9rem;
+	top: 4.125rem;
+}
+
+.nei2 p:nth-child(2){
+	position: absolute;
+	font-size: 1.3rem;
+	font-weight: bold;
+	font-family: fantasy;
+	left: 14rem;
+	top: 3.95rem;
+	letter-spacing:0.21875rem;
+	animation: dian 1s linear infinite;
+	overflow: hidden;
+}
+
+@keyframes dian{
+	from{
+		width: 0rem;
+	}
+	to{
+		width: 2rem;
+	}
+}
+
+.nei2 p:nth-child(3){
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: fantasy;
+    left: 10.5rem;
+    top: 6.125rem;
+}
+
+/* 第二页 */
+.nei3{
+	position: absolute;
+	width: 9.375rem;
+	height: 3.125rem;
+	left: 0rem;
+	top: 20.84375rem;
+}
+
+.nei3 img:nth-child(1){
+    position: absolute;
+    width: 24.25rem;
+    height: 15.25rem;
+    left: 0rem;
+    top: -20.875rem;
+}
+
+.nei3 img:nth-child(2){
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    left: 13.375rem;
+    top: -10.1875rem;
+	z-index: 222;
+	animation: zhuan 2s linear infinite;
+}
+
+.nei3 img:nth-child(3){
+    position: absolute;
+    width: 5.25rem;
+    height: 5.25rem;
+    left: 6.9375rem;
+    top: -11.4375rem;
+    z-index: 222;
+	animation: zhuan 2s linear infinite;
+}
+@keyframes zhuan{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+.nei3 img:nth-child(4){
+ position: absolute;
+    width: 16.25rem;
+    height: 10.25rem;
+    left: 3.3125rem;
+    top: -17.1875rem;
+}
+
+.nei3 img:nth-child(5){
+    position: absolute;
+    width: 0.7rem;
+    height: 0.7rem;
+    left: 4.9375rem;
+    top: -2.25rem;
+    z-index: 111;
+}
+
+.nei3 img:nth-child(6){
+    position: absolute;
+    width: 0.7rem;
+    height: 0.7rem;
+    left: 17.5625rem;
+    top: 5.75rem;
+    z-index: 111;
+}
+
+.nei3 img:nth-child(7){
+    position: absolute;
+    width: 17.25rem;
+    height: 13.25rem;
+    left: 3.4375rem;
+    top: -3.375rem;
+}
+
+.nei3 img:nth-child(8){
+    position: absolute;
+    width: 23.25rem;
+    height: 9.25rem;
+    left: 0rem;
+    top: 9.75rem;
+}
+
+.jian{
+    position: absolute;
+    width: 2.25rem;
+    height: 2.25rem;
+    left: 10.75rem;
+    top: 38.1875rem;
+	opacity: 0;
+	animation: zi 1s 5s linear forwards;
+}
+
+.jian img{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	width: 2.25rem;
+	height: 2.25rem;
+	animation: jiantou 1.2s linear infinite;
+}
+
+@keyframes jiantou{
+	from{
+		top: -0.7rem;
+	}
+	to{
+		top: 0rem;
+	}
+}
+.nei4{
+	position: absolute;
+	width: 12rem;
+	height: 3.125rem;
+	left: 5.625rem;
+    top: 19.17625rem;
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: fantasy;
+	text-align: center;
+}
+
+.nei4 p:nth-child(1){
+	opacity: 0;
+	animation: zi 1s linear forwards;
+}
+
+.nei4 p:nth-child(2){
+	opacity: 0;
+	animation: zi 1s 1s linear forwards;
+}
+
+.nei4 p:nth-child(3){
+	opacity: 0;
+	animation: zi 1s 2s linear forwards;
+}
+
+.nei4 p:nth-child(4){
+	opacity: 0;
+	animation: zi 1s 3s linear forwards;
+}
+
+.nei4 p:nth-child(5){
+	opacity: 0;
+	animation: zi 1s 4s linear forwards;
+}
+
+.nei4 p:nth-child(6){
+	opacity: 0;
+	animation: zi 1s 5s linear forwards;
+}
+
+@keyframes zi{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+/* 第三页 */
+.nei5{
+	position: absolute;
+	width: 9.375rem;
+	height: 3.125rem;
+	left: 0rem;
+	top: 20.84375rem;
+}
+
+.nei5 img:nth-child(1){
+    position: absolute;
+    width: 20.25rem;
+    height: 17.25rem;
+    left: 2rem;
+    top: 1.125rem;
+	z-index: 999;
+	opacity: 0;
+	animation: down 1s 2s linear forwards;
+}
+.nei5 img:nth-child(2){
+	position: absolute;
+    width: 20.25rem;
+    height: 16.25rem;
+    left: 3rem;
+    top: -16.875rem;
+	z-index: 222;
+	animation: up 1s linear forwards;
+}
+
+@keyframes up{
+	from{
+		transform: translateX(23.4375rem);
+	}
+	to{
+		transform: translateX(0rem);
+	}
+}
+
+@keyframes down{
+	from{
+		transform: translateX(-23.4375rem);
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+		transform: translateX(0rem);
+	}
+}
+.nei5 img:nth-child(3){
+    position: absolute;
+    width: 25.25rem;
+    height: 27.6rem;
+    left: -1rem;
+    top: -23rem;
+	animation: up 1s linear forwards;
+}
+.nei5 img:nth-child(4){
+    position: absolute;
+    width: 24.25rem;
+    height: 24.6rem;
+    left: 0rem;
+    top: -3.55rem;
+	opacity: 0;
+	animation: down 1s 2s linear forwards;
+}
+.nei5 img:nth-child(5){
+    position: absolute;
+    width: 11.25rem;
+    height: 6.25rem;
+    left: 11rem;
+    top: 5.125rem;
+	opacity: 0;
+	animation: zi2 1s 3s linear forwards;
+}
+.nei5 img:nth-child(6){
+    position: absolute;
+    width: 11.25rem;
+    height: 6.25rem;
+    left: 2rem;
+    top: -17.875rem;
+	z-index: 233;
+	opacity: 0;
+	animation: zi2 1s 1s linear forwards;
+}
+
+@keyframes zi2{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.jian{
+	position: absolute;
+    width: 2.25rem;
+    height: 2.25rem;
+    left: 10.75rem;
+    top: 38.1875rem;
+    opacity: 0;
+    animation: zi 1s 3s linear forwards;
+}
+
+/* 第四页 */
+.tang{
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	width: 23.4375rem;
+	height: 100%;
+	z-index: 9999;
+	display: none;
+}
+
+.nei6,.nei7{
+	position: absolute;
+	width: 9.375rem;
+	height: 3.125rem;
+	left: 0rem;
+	top: 20.84375rem;
+}
+.nei7{
+	animation: xuan 1s 4s linear forwards;
+	opacity: 0;
+}
+
+@keyframes xuan{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+/* 盘子 */
+.nei6 img:nth-child(1){
+    position: absolute;
+    width: 16.25rem;
+    height: 16.6rem;
+    left: 3.5rem;
+    top: -17rem;
+}
+/* 人 */
+.nei6 img:nth-child(2){
+    position: absolute;
+    width: 13.25rem;
+    height: 16.6rem;
+    left: 5.5rem;
+    top: -17rem;
+	opacity: 0;
+	animation: diao 1s 2s linear forwards;
+}
+@keyframes diao{
+	from{
+		transform: translateY(-16.6rem)
+	}
+	to{
+		opacity: 1;
+		transform: translateY(0rem)
+	}
+}
+/* 红绿豆 */
+.nei6 img:nth-child(3){
+    position: absolute;
+    width: 17.25rem;
+    height: 6.6rem;
+    left: 5.5rem;
+    top: -3rem;
+	z-index: 999;
+	opacity: 0;
+	animation: dou 1s 1s linear forwards;
+}
+
+@keyframes dou{
+	from{
+		transform: translateX(17.25rem)
+	}
+	to{
+		opacity: 1;
+		transform: translateX(0rem)
+	}
+}
+/* 地瓜 */
+.nei6 img:nth-child(4){
+    position: absolute;
+    width: 8.25rem;
+    height: 5.6rem;
+    left: 1.5rem;
+    top: -2rem;
+	animation: digua 1s linear forwards;
+}
+
+@keyframes digua{
+	from{
+		transform: translateX(-9.75rem)
+	}
+	to{
+		transform: translateX(1.5rem)
+	}
+}
+/* 五谷杂粮字体框 */
+.nei6 img:nth-child(5){
+	position: absolute;
+    width: 16.25rem;
+    height: 7.6rem;
+    left: 3.5rem;
+    top: 5rem;
+	opacity: 0;
+	animation: kuang 1s 3s linear forwards;
+}
+@keyframes kuang{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+/* 右边草 */
+.nei6 img:nth-child(6){
+    position: absolute;
+    width: 7.25rem;
+    height: 12.6rem;
+    left: 14.9rem;
+    top: -12rem;
+	opacity: 0;
+	animation: diao 1s 2s linear forwards;
+}
+/* 左边草 */
+.nei6 img:nth-child(7){
+    position: absolute;
+    width: 8.65rem;
+    height: 13.6rem;
+    left: 1.9rem;
+    top: -11rem;
+	z-index: 999;
+	opacity: 0;
+	animation: diao 1s 2s linear forwards;
+}
+
+.name{
+    border: 2px solid #000;
+    width: 8.5rem;
+    height: 2.125rem;
+    position: absolute;
+    left: 2.3rem;
+    top: 13rem;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: 1.125rem;
+    border-radius: 0.4rem;
+	outline: none;
+}
+
+.zhiye{
+    border: 2px solid #000;
+    width: 8.7rem;
+    height: 2.436rem;
+    position: absolute;
+    left: 12.3rem;
+    top: 13rem;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: 1.125rem;
+    border-radius: 0.4rem;
+	outline: none;
+}
+
+.btn{
+    width: 18.75rem;
+    height: 3.25rem;
+    position: absolute;
+    left: 2.3rem;
+    top: 16.5rem;
+}
+
+/* 第五页 */
+.nei8{
+	position: absolute;
+	width: 9.375rem;
+	height: 3.125rem;
+	left: 0rem;
+	top: 20.84375rem;
+}
+
+.nei8 img:nth-child(1){
+    position: absolute;
+    width: 3.25rem;
+    height: 3.25rem;
+    left: 1rem;
+    top: -19rem;
+	z-index: 999;
+}
+
+.nei8 img:nth-child(2){
+	position: absolute;
+    width: 21.25rem;
+    height: 34.25rem;
+    left: 1rem;
+    top: -14rem;
+}
+
+.nei9{
+	position: absolute;
+	width: 9.375rem;
+	height: 3.125rem;
+	left: 12.421875rem;
+	top: 22.928125rem;
+}
+
+.nei9 p:nth-child(1){
+    position: absolute;
+    right: 0rem;
+    top: -8rem;
+    text-align: right;
+    font-size: 1.7625rem;
+    font-weight: bold;
+    font-family: fantasy;
+    color: #fff;
+}
+
+.nei10{
+    position: absolute;
+    width: 21.1rem;
+    height: 19.125rem;
+    left: 1.09375rem;
+    top: 20.84375rem;
+}
+
+.list{
+	list-style: none;
+	overflow: hidden;
+	text-align: center;
+}
+
+.list li{
+	float: left;
+	color: #000;
+	border: 1px solid #000;
+	width: calc(25% - 2px);
+	height: 6.25rem;
+	line-height: 6.25rem;
+	font-size: 1.3125rem;
+	font-weight: bold;
+	font-family: fantasy;
+	background: #FFFFFF;
+}
+
+.list li:nth-child(4){
+	background: gold;
+}
+
+.list li:nth-child(8){
+	background: gold;
+}
+
+.list li:nth-child(12){
+	background: gold;
+}
+
+.nei11{
+	position: absolute;
+	width: 23.4375rem;
+	height: 41.6875rem;
+	left: 0rem;
+	top: 0rem;
+	display: none;
+}
+
+.nei11 img:nth-child(1){
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	width: 23.4375rem;
+	height: 100%;
+}
+
+.nei11 img:nth-child(2){
+    position: absolute;
+    left: 6rem;
+    top: 21rem;
+    width: 11.625rem;
+    height: 20%;
+}
+.nei11 p{
+		font-size: 1.2rem;
+		font-weight: bold;
+		font-family: fantasy;
+}
+#n{
+	position: absolute;
+	left: 11rem;
+    top: 14.1rem;
+}
+
+#scose{
+	position: absolute;
+    left: 11rem;
+    top: 15.9rem;
+}
+
+#chengji{
+	position: absolute;
+    left: 11rem;
+    top: 17.5rem;
+}
+
+.pp{
+	position: absolute;
+	left: 1rem;
+	top: 0rem;
+	font-size: 1.125rem;
+	font-weight: bold;
+	font-family: fantasy;
+}
